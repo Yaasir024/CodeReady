@@ -2,7 +2,7 @@
   <!-- <Hero1 /> -->
   <div class="bg-cd-light-200">
     <div class="flex">
-      <div class="w-60 border-r-2 border-slate-300 p-4">
+      <div class="w-60 border-r-2 border-slate-300 p-4 hidden md:block">
         <div class="border-2 border-slate-300 mt-8 p-2">
           <h2 class="text-3xl font-normal">Filter</h2>
           <ul class="filter ">
@@ -16,12 +16,11 @@
         </div>
       </div>
       <div class="w-full">
-        BBBBBBBB
         <div
-          class="asset-grid grid w-full h-auto sm:grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4 p-4 mt-6"
+          class="asset-grid grid w-full h-auto sm:grid-cols-2 gap-5 md:grid-cols-2 lg:grid-cols-3 p-4 mt-2"
         >
           <div class="p-3">
-            <div class="image-wrapper h-350px">
+            <div class="image-wrapper h-270px">
               <img src="../assets/template1.png" alt="" class="h-full w-full" />
             </div>
             <div class="details">
@@ -39,8 +38,8 @@
             </div>
           </div>
           <div class="p-3">
-            <div class="image-wrapper h-350px">
-              <img src="../assets/template2.png" alt="" class="h-full" />
+            <div class="image-wrapper h-270px overflow-hidden">
+              <img src="../assets/template2.png" alt="" class="h-full hover:scale-105 transfrom duration-150 ease-in-out" />
             </div>
             <div class="details">
               <span class="text-xs text-gray-600 uppercase font-semibold"

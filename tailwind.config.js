@@ -71,6 +71,7 @@ module.exports = {
       },
       spacing: {
         "l999": "-62.438rem",
+        "270px": "16.875rem",
         "279px": "17.4375rem",
         "210px": "13.125rem",
         "206px": "12.875rem",
