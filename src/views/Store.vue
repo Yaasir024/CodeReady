@@ -1,9 +1,19 @@
 <template>
   <!-- <Hero1 /> -->
   <div class="bg-cd-light-200">
-    <div class="flex items-center">
-      <div class="w-140px border-r-2 border-slate-300 bg-red-700">
-        <h2>Filter</h2>
+    <div class="flex">
+      <div class="w-60 border-r-2 border-slate-300 p-4">
+        <div class="border-2 border-slate-300 mt-8 p-2">
+          <h2 class="text-3xl font-normal">Filter</h2>
+          <ul class="filter ">
+            <li class="text-sm font-normal mt-7">Button</li>
+            <li class="text-sm font-normal mt-5">Modal</li>
+            <li class="text-sm font-normal mt-5">Popup</li>
+            <li class="text-sm font-normal mt-5">Form</li>
+            <li class="text-sm font-normal mt-5">Navbar</li>
+            <li class="text-sm font-normal mt-5">Cards</li>
+          </ul>
+        </div>
       </div>
       <div class="w-full">
         BBBBBBBB
